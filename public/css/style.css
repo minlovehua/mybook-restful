@@ -1,0 +1,36 @@
+.books {
+	margin: 50px;
+}
+
+.title {
+	text-align: center;  /*文字水平居中*/
+	background-color: #EEE8AA;
+	height: 50px;
+	line-height: 50px;   /*文字垂直居中*/
+	font-size: 24px;
+}
+.content {
+	width: 100%;
+	background-color: #FAFAD2;
+}
+.content table {
+	width: 100%;
+	text-align: center;
+	border-right: 1px solid orange;
+	border-bottom: 1px solid orange;
+}
+.content td,th {
+	border-left: 1px solid orange;
+	border-top: 1px solid orange;
+	height: 40px;
+	line-height: 40px;
+}
+
+.form {
+	display: none;  /*先隐藏，等弹框时再显示*/
+	
+	position: absolute;
+	left: 50%;
+	top: 100px;
+	margin-left: -110px;
+}
